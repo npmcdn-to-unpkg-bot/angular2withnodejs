@@ -14,7 +14,7 @@ import {HTTP_PROVIDERS} from 'angular2/http'
 export class AppComponent {
     
     private name:string;
-    private message={"id": 'kj', "name": 'io'};
+    private message={"id": "121", "name": "shuklaJi"};
     
 
     constructor(private _postService:PostService){
@@ -31,7 +31,7 @@ export class AppComponent {
                 .subscribe(result=>{
         
             
-               // console.log(result);
+               console.log(result);
                 
             });
 
